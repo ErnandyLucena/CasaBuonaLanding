@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind Example</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black ">
+  <a 
+  href="https://wa.me/5599999999999" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  class="fixed bottom-5 right-5 bg-green-500 z-50 text-white rounded-full p-5 shadow-lg hover:bg-green-600 transition transform hover:scale-105"
+  aria-label="Fale conosco no WhatsApp"
+>
+  <!-- Sua imagem aqui -->
+  <img src="assets/whatsapp-white.png" alt="WhatsApp" class="w-6 h-6 md:w-8 md:h-8">
+</a>
+  <div class="mx-auto">
+    <nav class=" bg-black opacity-90 border-gray-200 dark:bg-black fixed w-full z-50" style="top: 0;">
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-end md:justify-center mx-auto p-4">
+        <button id="menu-toggle" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+        </button>
+        <div id="navbar-default" class="hidden w-full md:block md:w-auto z-50">
+          <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 bg-black z-100  rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 dark:border-gray-700">
+            <li>
+                <a href="#" class="block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-400 md:p-0 text-white md:dark:hover:text-red-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" aria-current="page">Home</a>
+              </li>
+              <li>
+                <a href="#" class="block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-400 md:p-0 text-white md:dark:hover:text-red-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+              </li>
+              <li>
+                <a href="#" class="block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-400 md:p-0 text-white md:dark:hover:text-red-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+              </li>
+              <li>
+                <a href="#" class="block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-400 md:p-0 text-white md:dark:hover:text-red-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a>
+              </li>
+              <li>
+                <a href="#" class="block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-400 md:p-0 text-white md:dark:hover:text-red-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="m-2 flex justify-center items-center flex-col md:flex-row h-screen p-8 lg:p-20">
+            <div class="logo">
+
+            </div>
+            <div class="conteudo flex justify-center flex-col text-center w-2/3">
+              <h1 class="text-white text-5xl font-bold">Casa Buona</h1>
+              <p class="text-white mt-8 text-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+                 distinctio magnam  adipisicing elit. Pariatur distinctio magnam  nesciunt atque, dolores odit maiores facere iure ab aspernatur! Adipisci qui necessitatibus repellat sint recusandae amet quia a aut.</p>
+            </div>
+    </div>
+
+    
+
+    <div class="flex flex-col justify-center items-center bg-white min-h-screen">
+      <div class="md:w-2/3 w-full p-8 flex flex-col items-center">
+        <div class="card-container flex items-center justify-center w-full">
+          <div class="flex flex-col items-center">
+            <div class="example h-36 h-36 bg-green-600 lg:w-80 lg:h-80 rounded-3xl"></div>
+            <img src="" alt="">
+          </div>
+          <div class="flex flex-col justify-start text-left ml-14">
+            <h1 class="text-red-900 text-2xl lg:text-4xl font-bold">Self Services</h1>
+            <p class="text-gray-500 text-sm lg:text-md mt-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus eius repellendus asperiores deleniti cumque maiores mollitia dolorem. 
+              Dolores eius a laborum, itaque deserunt quisquam harum culpa magni velit error esse.</p>
+              <button class="text-gray-700 font-medium border-2 border-solid rounded-lg p-2 border-gray-700 w-1/3 mt-8 
+              hover:border-gray-300 hover:text-gray-500 hover:bg-gray-100 hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out">
+                Saiba Mais
+              </button>
+          </div>
+        </div>
+        
+          
+        
+       
+      </div>
+      <div class="md:w-2/3 w-full p-8 flex flex-col items-center">
+        <div class="card-container flex items-center justify-center w-full">
+          <div class="flex flex-col items-center">
+            <div class="example h-36 h-36 bg-green-600 lg:w-80 lg:h-80 rounded-3xl"></div>
+            <img src="" alt="">
+          </div>
+          <div class="flex flex-col justify-start text-left ml-14">
+            <h1 class="text-red-900 text-2xl lg:text-4xl font-bold">Self Services</h1>
+            <p class="text-gray-500 text-sm lg:text-md mt-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus eius repellendus asperiores deleniti cumque maiores mollitia dolorem. 
+              Dolores eius a laborum, itaque deserunt quisquam harum culpa magni velit error esse.</p>
+              <button class="text-gray-700 font-medium border-2 border-solid rounded-lg p-2 border-gray-700 w-1/3 mt-8 
+              hover:border-gray-300 hover:text-gray-500 hover:bg-gray-100 hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out">
+                Saiba Mais
+              </button>
+          </div>
+        </div>
+        
+          
+        
+       
+      </div>
+    </div>
+    
+        
+  </div> <!-- Fechamento da div mx-auto -->
+
+<footer class="bg-green-700  shadow ">
+  <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+    <span class="text-sm  sm:text-center text-black">© 2023 <a href="" class="hover:underline">CasaBuona™</a>. All Rights Reserved.
+  </span>
+  <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-black sm:mt-0">
+      <li>
+          <a href="#" class="hover:underline me-4 md:me-6">About</a>
+      </li>
+      <li>
+          <a href="#" class="hover:underline me-4 md:me-6">Privacy </a>
+      </li>
+      <li>
+          <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
+      </li>
+      <li>
+          <a href="#" class="hover:underline">Contact</a>
+      </li>
+  </ul>
+  </div>
+</footer>
+
+  <script src="./js/navbar"></script>
+  <!-- JavaScript para abrir/fechar o menu -->
+</body>
+</html>

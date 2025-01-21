@@ -1,0 +1,40 @@
+/* Animação de pulsação */
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.06);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  /* Estilo do botão com animação de pulsação */
+  .btn-container {
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    animation: pulse 1.5s infinite; /* Animação aplicada ao botão */
+  }
+  
+  .btn-container:hover {
+    cursor: pointer;
+    background-color: #fbbf24; /* yellow-600 */
+  }
+  
+  .btn-container .pulsating-btn {
+    
+    cursor: pointer;
+  }
+
+  .background {
+    opacity: 0.8;
+    background-image:  linear-gradient(#ffffff34 1px, transparent 1px), linear-gradient(to right, #ffffff34 1px, #e5e5f700 1px);
+    background-size: 100px 100px;
+  }
+
+  .box-shadow {
+    box-shadow: 5px 5px 25px rgba(255, 208, 0, 0.39);
+  }
+  
