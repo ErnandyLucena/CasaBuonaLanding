@@ -1,4 +1,9 @@
 /* Animação de pulsação */
+body {
+  margin: 0;
+  padding: 0;
+}
+
 @keyframes pulse {
     0% {
       transform: scale(1);
