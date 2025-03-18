@@ -2,14 +2,14 @@ const carousel = document.getElementById('carousel');
 const slides = document.querySelectorAll('#carousel > div');
 
 let currentIndex = 0;
-let visibleSlides = window.innerWidth < 768 ? 1 : 3; // Detecta a quantidade de slides visíveis
+let visibleSlides = window.innerWidth < 768 ? 1 : 3; 
 
 function updateVisibleSlides() {
-  visibleSlides = window.innerWidth < 768 ? 1 : 3; // Atualiza os slides visíveis com base no tamanho da tela
+  visibleSlides = window.innerWidth < 768 ? 1 : 3; 
 }
 
 function updateCarousel() {
-  const offset = -currentIndex * (100 / visibleSlides); // Calcula o deslocamento correto
+  const offset = -currentIndex * (100 / visibleSlides); 
   carousel.style.transform = `translateX(${offset}%)`;
 }
 
@@ -23,7 +23,6 @@ document.getElementById('next').addEventListener('click', () => {
   updateCarousel();
 });
 
-// Faz o carrossel passar automaticamente
 setInterval(() => {
   currentIndex = (currentIndex < slides.length - visibleSlides) ? currentIndex + 1 : 0;
   updateCarousel();
